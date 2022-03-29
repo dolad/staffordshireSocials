@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "StaffordshireSocials",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/tmp/amplify-bb1fdc46-5bf3-42b8-be62-d5a2a093770e/amplify/backend/api/StaffordshireSocials/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
