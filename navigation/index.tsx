@@ -15,6 +15,8 @@ import LinkingConfiguration from './LinkingConfiguration';
 
 import ChatRoomScreen from '../screens/ChatRoomScreen';
 import HomeScreen from '../screens/HomeScreen';
+import SplashScreen from '../screens/SplashScreens';
+import OnboardingScreen from '../screens/OnboardingScreen';
 
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
@@ -34,6 +36,16 @@ const Stack = createStackNavigator<RootStackParamList>();
 function RootNavigator() {
   return (
     <Stack.Navigator>
+       <Stack.Screen 
+        name="SplashScren" 
+        component={SplashScreen}
+        options={{headerShown: false}}
+      />
+       <Stack.Screen 
+        name="Onboarding" 
+        component={OnboardingScreen}
+        options={{headerShown: false}}
+      />
       <Stack.Screen 
         name="Home" 
         component={HomeScreen} 

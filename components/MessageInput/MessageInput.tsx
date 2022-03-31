@@ -46,7 +46,7 @@ const MessageInput = () => {
           style={styles.input}
           value={message}
           onChangeText={setMessage}
-          placeholder="Signal message..."
+          placeholder="Send a message..."
         />
         
         <Feather name="camera" size={24} color="#595959" style={styles.icon} />

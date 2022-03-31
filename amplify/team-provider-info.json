@@ -9,11 +9,18 @@
       "UnauthRoleName": "amplify-staffordshiresocials-staging-214041-unauthRole",
       "StackName": "amplify-staffordshiresocials-staging-214041",
       "StackId": "arn:aws:cloudformation:us-east-1:696478679351:stack/amplify-staffordshiresocials-staging-214041/8cd5ad10-ae16-11ec-ba72-124db6793091",
-      "AmplifyAppId": "dw69a6tg0m9kz"
+      "AmplifyAppId": "dw69a6tg0m9kz",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-staffordshiresocials-staging-214041-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
         "StaffordshireSocials": {}
+      },
+      "function": {
+        "StaffordshireSocialsPostConfirmation": {
+          "deploymentBucketName": "amplify-staffordshiresocials-staging-214041-deployment",
+          "s3Key": "amplify-builds/StaffordshireSocialsPostConfirmation-5a706e4f537a35747939-build.zip"
+        }
       }
     }
   }

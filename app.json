@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SignalClone",
-    "slug": "SignalClone",
+    "name": "StaffordshireSocialChats",
+    "slug": "StaffordshireSocialChats",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
